@@ -27,9 +27,9 @@ def check_winner():
 
 def play_or_not():
     answer = str(input("Are you want to play again ? Y(yes)/N(no) "))
-    if answer == 'Y' or answer == 'y':
+    if answer == 'Y' or answer == 'y' or answer == 'yes' or answer == 'Yes':
         game()
-    elif answer == 'N' or answer == 'n':
+    elif answer == 'N' or answer == 'n' or answer == 'no' or answer == 'No':
         print("Okay. Thanks for playing.")
 
 def game():

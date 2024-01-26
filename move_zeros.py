@@ -1,7 +1,6 @@
 def move_zeros(array):
     non_zeros = []
     zeros = []
-    new_arr = []
 
     for i in array:
         if i != 0:
