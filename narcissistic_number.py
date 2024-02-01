@@ -2,7 +2,7 @@
 # 1^3 + 5^3 + 3^3 = 1 + 125 + 27 = 153
 
 # 1652 (4 նիշ), որը Նարցիսիստական չէ.
-# 1^4 + 6^4 + 5^4 + 2^4 = 1 + 1296 + 625 + 16 = 1938 թ.
+# 1^4 + 6^4 + 5^4 + 2^4 = 1 + 1296 + 625 + 16 = 1938.
 
 def narcissistic(value):
     value = str(value)
@@ -20,4 +20,4 @@ def narcissistic(value):
     else:
         return False
 
-print(narcissistic(1652))
+print(narcissistic(153))
