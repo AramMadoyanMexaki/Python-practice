@@ -2,7 +2,6 @@ def is_int_arr(arr):
     if not arr:
         return True
 
-
     for i in arr:
         if not isinstance(i, (int, float)) or i != int(i):
             return False

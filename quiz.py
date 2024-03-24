@@ -14,6 +14,7 @@ def ask_question(question_object):
 
 # Example usage
 question1 = Questions("What is the capital of Armenia?", ["Yerevan", "Tbilisi", "Baku", "Ankara"], 1)
+print(question1.__dict__)
 # question2 = Questions("What is the capital of Great Britain?", ["Washington", "New York", "London", "Paris"], 3)
 # question3 = Questions("What is the capital of Russia?", ["Minsk", "Kyiv", "Moscow", "Ankara"], 3)
 # question4 = Questions("What is the capital of America?", ["Lose Angelos", "Washington", "Marsel", "Otawa"], 2)
